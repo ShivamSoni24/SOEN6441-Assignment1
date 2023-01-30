@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>assignment_01</OriginalElement>
+  <nodes>
+    <node x="51.39772727272725" y="74.0">assignment_01.FinanceDetails</node>
+    <node x="174.5" y="368.0">assignment_01.FullTimeEmp</node>
+    <node x="476.5" y="335.0">assignment_01.PartTimeEmp</node>
+    <node x="-75.5" y="269.0">assignment_01.Bill</node>
+    <node x="-3.647727272727309" y="641.0">assignment_01.AccountPayable</node>
+    <node x="498.39772727272725" y="-15.0">assignment_01.Employee</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="assignment_01.AccountPayable" target="assignment_01.PartTimeEmp" relationship="CREATE">
+      <point x="60.0" y="-160.0" />
+      <point x="176.3522727272727" y="620.0" />
+      <point x="315.5" y="620.0" />
+      <point x="315.5" y="610.0" />
+      <point x="617.0" y="610.0" />
+      <point x="0.0" y="94.0" />
+    </edge>
+    <edge source="assignment_01.AccountPayable" target="assignment_01.Bill" relationship="CREATE">
+      <point x="60.0" y="-160.0" />
+      <point x="176.3522727272727" y="620.0" />
+      <point x="315.5" y="620.0" />
+      <point x="315.5" y="610.0" />
+      <point x="39.49999999999997" y="610.0" />
+      <point x="0.0" y="160.0" />
+    </edge>
+    <edge source="assignment_01.PartTimeEmp" target="assignment_01.Employee" relationship="GENERALIZATION">
+      <point x="70.25" y="-94.0" />
+      <point x="687.25" y="238.0" />
+      <point x="609.8977272727273" y="238.0" />
+      <point x="0.0" y="116.0" />
+    </edge>
+    <edge source="assignment_01.AccountPayable" target="assignment_01.FinanceDetails" relationship="TO_MANY">
+      <point x="-60.0" y="-160.0" />
+      <point x="56.35227272727269" y="620.0" />
+      <point x="-86.0" y="620.0" />
+      <point x="-86.0" y="238.0" />
+      <point x="92.14772727272725" y="238.0" />
+      <point x="-40.75" y="27.0" />
+    </edge>
+    <edge source="assignment_01.PartTimeEmp" target="assignment_01.FinanceDetails" relationship="REALIZATION">
+      <point x="-70.25" y="-94.0" />
+      <point x="546.75" y="248.0" />
+      <point x="298.39772727272725" y="248.0" />
+      <point x="298.39772727272725" y="238.0" />
+      <point x="173.64772727272725" y="238.0" />
+      <point x="40.75" y="27.0" />
+    </edge>
+    <edge source="assignment_01.FullTimeEmp" target="assignment_01.FinanceDetails" relationship="REALIZATION">
+      <point x="-70.5" y="-61.0" />
+      <point x="245.0" y="248.0" />
+      <point x="298.39772727272725" y="248.0" />
+      <point x="298.39772727272725" y="238.0" />
+      <point x="173.64772727272725" y="238.0" />
+      <point x="40.75" y="27.0" />
+    </edge>
+    <edge source="assignment_01.FullTimeEmp" target="assignment_01.Employee" relationship="GENERALIZATION">
+      <point x="70.5" y="-61.0" />
+      <point x="386.0" y="238.0" />
+      <point x="609.8977272727273" y="238.0" />
+      <point x="0.0" y="116.0" />
+    </edge>
+    <edge source="assignment_01.Bill" target="assignment_01.FinanceDetails" relationship="REALIZATION">
+      <point x="0.0" y="-160.0" />
+      <point x="39.5" y="248.0" />
+      <point x="298.39772727272725" y="248.0" />
+      <point x="298.39772727272725" y="238.0" />
+      <point x="173.64772727272725" y="238.0" />
+      <point x="40.75" y="27.0" />
+    </edge>
+    <edge source="assignment_01.AccountPayable" target="assignment_01.FullTimeEmp" relationship="CREATE">
+      <point x="60.0" y="-160.0" />
+      <point x="176.3522727272727" y="620.0" />
+      <point x="315.5" y="620.0" />
+      <point x="0.0" y="61.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.5180722891566265" showDependencies="true" x="346.0" y="483.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
